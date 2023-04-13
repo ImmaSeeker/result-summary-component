@@ -8,13 +8,55 @@ body{
   color: rgb(179, 179, 179);
 }
 
+.container {
+  margin: auto;
+}
+
 .wrapper {
-  margin: 100px auto;
+  width: 33rem;
+  height: 22rem;
+  margin: auto;
   display: flex;
+  text-align: center;
 
 }
 
 .result {
   background-color: rgb(92, 43, 226);
-  border-radius: 5px;
+  border-radius: 1rem;
+}
+
+.summary {
+  width: 30rem;
+  background-color: red;
+}
+
+.result h1, p {
+  margin:1rem;
+  padding: 0 3rem;
+}
+
+.score {
+  background-color: rgb(64, 30, 158);
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2.5rem;
+  margin: 2rem auto;
+}
+
+.score h1, p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.summary .field {
+  margin: 1rem;
+  padding: 10px;
+  display: flex;
+  gap: 7rem;
+  border: 1px solid white;
+  border-radius: 1rem;
 }
