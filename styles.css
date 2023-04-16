@@ -28,7 +28,7 @@ body{
 
 .summary {
   width: 30rem;
-  background-color: red;
+  background-color: white;
 }
 
 .result h1, p {
@@ -59,4 +59,24 @@ body{
   gap: 7rem;
   border: 1px solid white;
   border-radius: 1rem;
+}
+
+#reaction{
+  background-color: rgba(255, 0, 0, 0.1);
+  color:rgb(163, 65, 65);
+}
+
+#memory{
+  background-color: rgba(255, 255, 0, 0.1);
+  color: rgb(255, 179, 0);
+}
+
+#verbal{
+  background-color: rgba(0, 128, 0, 0.1);
+  color: green;
+}
+
+#visual{
+  background-color: rgba(0, 0, 255, 0.1);
+  color: blue;
 }
