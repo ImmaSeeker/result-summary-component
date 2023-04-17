@@ -80,3 +80,15 @@ body{
   background-color: rgba(0, 0, 255, 0.1);
   color: blue;
 }
+
+#continue {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-left: 6rem;
+
+}
+
+img {
+  width: 1.5rem;
+}
