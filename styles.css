@@ -55,8 +55,10 @@ body{
 .summary .field {
   margin: 1rem;
   padding: 10px;
-  display: flex;
-  gap: 7rem;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-evenly;
   border: 1px solid white;
   border-radius: 1rem;
 }
@@ -90,5 +92,5 @@ body{
 }
 
 img {
-  width: 1.5rem;
+  width: 1rem;
 }
