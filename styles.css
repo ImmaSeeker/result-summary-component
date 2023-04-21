@@ -5,7 +5,7 @@
 }
 
 body{
-  color: rgb(179, 179, 179);
+  color: white;
 }
 
 .container {
@@ -22,7 +22,9 @@ body{
 }
 
 .result {
-  background-color: rgb(92, 43, 226);
+  
+  background-image: linear-gradient(rgb(120, 40, 211), rgb(36, 56, 188));
+  
   border-radius: 1rem;
 }
 
@@ -37,13 +39,13 @@ body{
 }
 
 .score {
-  background-color: rgb(64, 30, 158);
+  background-color: rgb(70, 31, 179);
   height: 9rem;
   width: 9rem;
   border-radius: 50%;
   text-align: center;
   padding: 2.5rem;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .score h1, p {
@@ -93,4 +95,25 @@ body{
 
 img {
   width: 1rem;
+}
+
+.result-txt{
+  margin: 1.5rem;
+}
+
+.result-sum{
+  padding: 0 2.5rem;
+}
+
+.points{
+  color: rgb(170, 170, 170);
+}
+
+.points span{
+  color: rgb(0, 0, 0);
+}
+
+.summary h1{
+  color: rgb(74, 73, 73);
+
 }
